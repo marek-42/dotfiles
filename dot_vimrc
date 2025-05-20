@@ -23,6 +23,7 @@ call plug#end()
 
 " =============
 set number		" Line numbering
+set relativenumber	" Turn on relative line numberings
 set nocompatible	" Turn off compatibility with vi to enable new features
 set hidden		" Save current buffer when switching 
 set grepprg=rg\ --vimgrep\ --smart-case\ --follow " Setup grepprg so :grep uses ripgrep
